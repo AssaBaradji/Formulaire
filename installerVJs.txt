@@ -1,0 +1,80 @@
+Microsoft Windows [version 10.0.19045.4651]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\simplon>npm create vue@latest
+Need to install the following packages:
+create-vue@3.10.4
+Ok to proceed? (y) y
+
+Vue.js - The Progressive JavaScript Framework
+
+√ Nom du projet : ... vue-project
+√ Ajouter TypeScript ? ... Non / Oui
+√ Ajouter le support de JSX ? ... Non / Oui
+√ Ajouter Vue Router pour le développement d'applications _single page_ ? ... Non / Oui
+√ Ajouter Pinia pour la gestion de l'état ? ... Non / Oui
+√ Ajouter Vitest pour les tests unitaires ? ... Non / Oui
+√ Ajouter une solution de test de bout en bout (e2e) ? » Non
+√ Ajouter ESLint pour la qualité du code ? ... Non / Oui
+√ Ajouter l'extension Vue DevTools 7 pour le débogage ? (expérimental) ... Non / Oui
+
+Génération du projet dans C:\Users\simplon\vue-project...
+
+Terminé. Exécutez maintenant :
+
+  cd vue-project
+  npm install
+  npm run dev
+
+
+C:\Users\simplon>npm install
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path C:\Users\simplon\package.json
+npm ERR! errno -4058
+npm ERR! enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\simplon\package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in: C:\Users\simplon\AppData\Local\npm-cache\_logs\2024-08-05T10_49_02_801Z-debug-0.log
+
+C:\Users\simplon>cd vue-project
+
+C:\Users\simplon\vue-project>npm install
+
+added 153 packages, and audited 154 packages in 33s
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\simplon\vue-project>npm run dev
+
+> vue-project@0.0.0 dev
+> vite
+
+
+  VITE v5.3.5  ready in 1470 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  Vue DevTools: Open http://localhost:5173/__devtools__/ as a separate window
+  ➜  Vue DevTools: Press Alt(⌥)+Shift(⇧)+D in App to toggle the Vue DevTools
+
+  ➜  press h + enter to show help
+
+Installer Bootstrap 5 si ce n'est pas déjà fait:
+
+sh
+
+npm install bootstrap@5
+
+Importer Bootstrap dans main.js:
+
+    Ouvrez src/main.js et ajoutez les lignes suivantes si elles ne sont pas déjà présentes:
+
+javascript
+
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
